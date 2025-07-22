@@ -15,3 +15,12 @@ jobs:
 
       - name: Run a Hello World script
         run: echo "🎉 Hello, your pipeline is running!"
+
+- name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
+
+      - name: Build project
+        run: npm run build
