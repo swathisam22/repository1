@@ -1,0 +1,9 @@
+my-gitops-repo/
+└── my-app/
+    └── charts/
+        └── my-app/
+            ├── Chart.yaml
+            ├── values.yaml
+            └── templates/
+                ├── deployment.yaml
+                └── service.yaml
