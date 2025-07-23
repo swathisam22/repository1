@@ -1,0 +1,5 @@
+my-gitops-repo/
+└── my-app/
+    ├── deployment.yaml
+    ├── service.yaml
+    └── namespace.yaml
